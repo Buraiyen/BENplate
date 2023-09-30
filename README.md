@@ -16,6 +16,7 @@ _BENplate_ is an opinionated Nuxt starter template made by [Brian E. Nguyen](htt
 - [Markdown Support](https://content.nuxt.com/usage/markdown)
   - [Code syntax highlighting](https://shiki.matsu.io/)
 - [Icons](https://icones.js.org/)
+- [Light / dark mode](https://vueuse.org/core/useDark)
 
 ```javascript
 // Syntax highlighting example
@@ -46,3 +47,7 @@ When using this template, please follow this checklist to update your info prope
 - [ ] Remove / replace the `favicon.ico` file in the `public/` directory
 
 And that's it! You're good to go!
+
+## Hosting
+
+Since Bun is in its early stages, I **_highly_** recommend that you use [Vercel](https://vercel.com/changelog/bun-install-is-now-supported-with-zero-configuration) to host your app because it works out-of-the-box with zero configurations needed
