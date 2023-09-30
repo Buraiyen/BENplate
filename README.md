@@ -4,6 +4,8 @@
 
 _BENplate_ is an opinionated Nuxt starter template made by [Brian E. Nguyen](https://brianenguyen.com).
 
+[Link to the app](https://benplate.vercel.app/)
+
 ## Features
 
 - [Nuxt](https://nuxt.com/)
