@@ -1,3 +1,3 @@
 # BENplate
 
-_An opinionated Nuxt starter template_
+<p class='text-center font-italic'><em>An opinionated Nuxt starter template</em></p>
