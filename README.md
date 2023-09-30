@@ -40,7 +40,7 @@ function benplate() {
 When using this template, please follow this checklist to update your info properly
 
 - [ ] Change the author name in `LICENSE`
-- [ ] Remove or change the `funding.yml` file in the `.github` folder
-- [ ] Remove / replace the `favicon.ico` file
+- [ ] Remove or change the `funding.yml` file in the `.github/` directory
+- [ ] Remove / replace the `favicon.ico` file in the `public/` directory
 
 And that's it! You're good to go!

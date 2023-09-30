@@ -39,11 +39,19 @@ When using this template, please follow this checklist to update your info prope
 
 <input type="checkbox" id="license" name="license">
 <label for="license">Change the autor name in <code>LICENSE</code></label>
+
 <br />
 
 <input type="checkbox" id="github" name="github">
 <label for="license">
-  Remove or change the <code>funding.yml</code> file in the <code>.github</code> folder
+  Remove or change the <code>funding.yml</code> file in the <code>.github/</code> directory
+</label>
+
+<br />
+
+<input type="checkbox" id="favicon" name="favicon">
+<label for="favicon">
+  Remove or replace the <code>favicon.ico</code> file in the <code>public/</code> directory
 </label>
 
 And that's it! You're good to go!
