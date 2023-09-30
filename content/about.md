@@ -11,4 +11,12 @@ _BENplate_ is an opinionated Nuxt starter template made by _buraiyen_.
   - Code syntax highlighting
 - Icons
 
+```javascript
+// Syntax highlighting example
+function benplate() {
+  const foo = 'bar';
+  console.log(foo);
+}
+```
+
 ## Setup Guide
