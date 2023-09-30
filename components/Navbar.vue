@@ -1,3 +1,9 @@
+<script setup>
+import { isDark } from '~/composables/dark';
+import { useToggle } from '@vueuse/shared'
+const toggleDark = useToggle(isDark);
+</script>
+
 <template>
   <nav>
     <ul
@@ -7,6 +13,14 @@
         <NuxtLink :to="link.path">
           <div :class="`${link.icon} text-3xl`" />
         </NuxtLink>
+      </li>
+      <li>
+        <div
+          class="i-solar-sun-outline dark:i-solar-moon-line-duotone 
+                cursor-pointer text-3xl text-[#0495b1] hover:text-[#015768]
+                transition-color duration-300 dark:text-[#79c2d0] dark:hover:text-[#efefef]"
+          @click="toggleDark()"
+        />
       </li>
     </ul>
   </nav>

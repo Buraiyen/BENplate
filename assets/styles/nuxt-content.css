@@ -31,11 +31,19 @@
   padding: 10px;
 }
 
-.nuxt-content pre code {
+html .nuxt-content pre code,
+html.dark .nuxt-content pre code {
   overflow-x: scroll;
   display: block;
   width: 100%;
   font-size: 1rem;
-  background-color: #fafafa;
   padding: 10px;
+}
+
+html .nuxt-content pre code {
+  background-color: #fafafa;
+}
+
+html.dark .nuxt-content pre code {
+  background-color: #282c34;
 }
