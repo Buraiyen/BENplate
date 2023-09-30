@@ -22,6 +22,11 @@ const toggleDark = useToggle(isDark);
           @click="toggleDark()"
         />
       </li>
+      <li>
+        <a href="https://github.com/buraiyen/BENplate" target="_blank">
+          <div class="i-iconoir-github cursor-pointer text-3xl" />
+        </a>
+      </li>
     </ul>
   </nav>
 </template>
