@@ -1,8 +1,11 @@
 <template>
   <article class="nuxt-content">
-    <ContentDoc class="mt-48 mt-48 mx-auto max-w-700px min-h-[100vh] px-4">
+    <ContentDoc>
       <template #not-found>
-        <Error />
+        <section class="text-center">
+          <h1>Not found</h1>
+          <p>Nice to meet you though!</p>
+        </section>
       </template>
     </ContentDoc>
   </article>
