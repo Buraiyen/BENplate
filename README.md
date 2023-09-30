@@ -39,13 +39,8 @@ function benplate() {
 
 When using this template, please follow this checklist to update your info properly
 
-<input type="checkbox" id="license" name="license">
-<label for="license">Change the autor name in <code>LICENSE</code></label>
-<br />
-
-<input type="checkbox" id="github" name="github">
-<label for="license">
-  Remove or change the <code>funding.yml</code> file in the <code>.github</code> folder
-</label>
+- [ ] Change the author name in `LICENSE`
+- [ ] Remove or change the `funding.yml` file in the `.github` folder
+- [ ] Remove / replace the `favicon.ico` file
 
 And that's it! You're good to go!
