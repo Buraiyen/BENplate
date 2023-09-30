@@ -2,6 +2,10 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@unocss/nuxt', '@nuxt/content'],
+  components: {
+    global: true,
+    dirs: ['~/components'],
+  },
   content: {
     highlight: {
       theme: {
