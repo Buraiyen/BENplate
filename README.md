@@ -18,14 +18,6 @@ _BENplate_ is an opinionated Nuxt starter template made by [Brian E. Nguyen](htt
 - [Icons](https://icones.js.org/)
 - [Light / dark mode](https://vueuse.org/core/useDark)
 
-```javascript
-// Syntax highlighting example
-function benplate() {
-  const foo = 'bar';
-  console.log(foo);
-}
-```
-
 ## Installation
 
 ```shell
